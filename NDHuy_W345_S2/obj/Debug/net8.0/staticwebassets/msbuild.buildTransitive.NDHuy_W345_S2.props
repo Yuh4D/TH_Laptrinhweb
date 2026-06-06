@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\NDHuy_W345_S2.props" />
+</Project>

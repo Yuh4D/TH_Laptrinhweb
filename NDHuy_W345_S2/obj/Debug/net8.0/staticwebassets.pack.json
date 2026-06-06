@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NDHuy_W345_S2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NDHuy_W345_S2.bundle.scp.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\airpods-pro-2\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\airpods-pro-2\\1.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\airpods-pro-2\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\airpods-pro-2\\2.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\airpods-pro-2\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\airpods-pro-2\\3.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\anker-ganprime-65w\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\anker-ganprime-65w\\1.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\anker-ganprime-65w\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\anker-ganprime-65w\\2.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\anker-ganprime-65w\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\anker-ganprime-65w\\3.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\dell-xps-15\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\dell-xps-15\\1.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\dell-xps-15\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\dell-xps-15\\2.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\dell-xps-15\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\dell-xps-15\\3.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\ipad-air-m2\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\ipad-air-m2\\1.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\ipad-air-m2\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\ipad-air-m2\\2.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\ipad-air-m2\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\ipad-air-m2\\3.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\iphone-15-pro-max\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\iphone-15-pro-max\\1.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\iphone-15-pro-max\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\iphone-15-pro-max\\2.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\iphone-15-pro-max\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\iphone-15-pro-max\\3.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\logitech-mx-master-3s\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\logitech-mx-master-3s\\1.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\logitech-mx-master-3s\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\logitech-mx-master-3s\\2.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\logitech-mx-master-3s\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\logitech-mx-master-3s\\3.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\macbook-pro-14-m3\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\macbook-pro-14-m3\\1.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\macbook-pro-14-m3\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\macbook-pro-14-m3\\2.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\macbook-pro-14-m3\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\macbook-pro-14-m3\\3.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\samsung-galaxy-s24-ultra\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\samsung-galaxy-s24-ultra\\1.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\samsung-galaxy-s24-ultra\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\samsung-galaxy-s24-ultra\\2.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\samsung-galaxy-s24-ultra\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\samsung-galaxy-s24-ultra\\3.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\samsung-galaxy-tab-s9\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\samsung-galaxy-tab-s9\\1.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\samsung-galaxy-tab-s9\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\samsung-galaxy-tab-s9\\2.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\samsung-galaxy-tab-s9\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\samsung-galaxy-tab-s9\\3.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\sony-wh-1000xm5\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\sony-wh-1000xm5\\1.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\sony-wh-1000xm5\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\sony-wh-1000xm5\\2.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\images\\sony-wh-1000xm5\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\sony-wh-1000xm5\\3.jpg"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "M:\\NDHuy_W345_S2\\NDHuy_W345_S2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NDHuy_W345_S2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NDHuy_W345_S2.props",
+      "PackagePath": "build\\NDHuy_W345_S2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NDHuy_W345_S2.props",
+      "PackagePath": "buildMultiTargeting\\NDHuy_W345_S2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NDHuy_W345_S2.props",
+      "PackagePath": "buildTransitive\\NDHuy_W345_S2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
