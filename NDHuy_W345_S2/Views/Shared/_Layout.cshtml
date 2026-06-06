@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Siêu Công Nghệ</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- DataTables -->
+    <link rel="stylesheet"
+          href="https://cdn.datatables.net/1.13.8/css/dataTables.bootstrap5.min.css" />
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ThinhTT_W345_S2.styles.css" asp-append-version="true" />
+
+    @await RenderSectionAsync("Styles", required: false)
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #f3f4f6;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .main-navbar {
+            background: #ffffff;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 12px 0;
+        }
+
+        .brand-logo {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            border: 3px solid #60a5fa;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+
+        .brand-text {
+            font-size: 30px;
+            font-weight: 700;
+            color: #2563eb;
+        }
+
+        .nav-link-custom {
+            color: #333 !important;
+            font-weight: 500;
+            margin: 0 10px;
+        }
+
+            .nav-link-custom:hover {
+                color: #2563eb !important;
+            }
+
+        .buy-btn {
+            background: #2563eb;
+            color: white !important;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+            .buy-btn:hover {
+                background: #1d4ed8;
+            }
+
+        .main-content {
+            flex: 1;
+            padding-top: 25px;
+            padding-bottom: 40px;
+        }
+
+        footer {
+            background: #061433;
+            color: white;
+            padding-top: 50px;
+            margin-top: 0;
+        }
+
+        .footer-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .footer-heading {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .footer-link {
+            color: #f3f4f6;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+            .footer-link:hover {
+                color: #60a5fa;
+            }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin-top: 30px;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .card-custom {
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .sticky-sidebar {
+            position: sticky;
+            top: 20px;
+            z-index: 10;
+        }
+
+        .img-preview {
+            max-width: 250px;
+            max-height: 250px;
+            border-radius: 12px;
+            object-fit: cover;
+            border: 2px dashed #dee2e6;
+            padding: 8px;
+            display: none;
+        }
+
+        .img-thumb {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+        }
+
+        .product-detail-img {
+            max-width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .gallery-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid #e5e7eb;
+            transition: transform 0.2s;
+        }
+
+        .gallery-img:hover {
+            transform: scale(1.05);
+            border-color: #60a5fa;
+        }
+
+        .delete-warning-icon {
+            font-size: 64px;
+            color: #ef4444;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg main-navbar">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center"
+                   asp-area=""
+                   asp-controller="Home"
+                   asp-action="Index">
+
+                    <div class="brand-logo">
+                        <i class="bi bi-cpu text-primary"></i>
+                    </div>
+
+                    <span class="brand-text">Siêu Công Nghệ</span>
+                </a>
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarContent">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom"
+                               asp-controller="Home"
+                               asp-action="Index">
+                                Trang chủ
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom"
+                               asp-controller="Product"
+                               asp-action="Index">
+                                Sản phẩm
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom"
+                               asp-controller="Categories"
+                               asp-action="Index">
+                                Danh mục
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom"
+                               href="#">
+                                Liên hệ
+                            </a>
+                        </li>
+
+                        <li class="nav-item ms-lg-3">
+                            <a href="#" class="btn buy-btn">
+                                Mua ngay
+                            </a>
+                        </li>
+
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BODY -->
+    <div class="container main-content">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4 mb-4">
+                    <div class="footer-title">Siêu Công Nghệ</div>
+
+                    <p>
+                        Chuyên thiết bị công nghệ chính hãng,
+                        giao nhanh toàn quốc.
+                    </p>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="footer-heading">
+                        Hỗ trợ khách hàng
+                    </div>
+
+                    <p>Hotline: 1900 6868</p>
+                    <p>Email: hotro@sieucongnghe.vn</p>
+                    <p>Thời gian: 08:00 - 22:00 mỗi ngày</p>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="footer-heading">
+                        Thông tin
+                    </div>
+
+                    <a href="#" class="footer-link">
+                        Chính sách bảo hành
+                    </a>
+
+                    <a href="#" class="footer-link">
+                        Chính sách đổi trả
+                    </a>
+
+                    <a href="#" class="footer-link">
+                        Phương thức thanh toán
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                © 2026 Siêu Công Nghệ. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- DataTables -->
+    <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+
+    <script src="https://cdn.datatables.net/1.13.8/js/dataTables.bootstrap5.min.js"></script>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

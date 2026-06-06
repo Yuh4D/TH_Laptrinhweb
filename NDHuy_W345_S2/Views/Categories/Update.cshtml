@@ -1,0 +1,46 @@
+﻿@model NDHuy_W345_S2.Models.Category
+
+@{
+    ViewData["Title"] = "Cập nhật danh mục";
+}
+
+<div class="container mt-4">
+
+    <h2>Cập nhật danh mục</h2>
+
+    <form asp-action="Update" method="post">
+
+        <input asp-for="Id" type="hidden" />
+
+        <div asp-validation-summary="ModelOnly"
+             class="text-danger mb-3">
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Name"
+                   class="form-label"></label>
+
+            <input asp-for="Name"
+                   class="form-control" />
+
+            <span asp-validation-for="Name"
+                  class="text-danger"></span>
+        </div>
+
+        <button type="submit"
+                class="btn btn-primary">
+            Cập nhật
+        </button>
+
+        <a asp-action="Index"
+           class="btn btn-secondary">
+            Hủy
+        </a>
+
+    </form>
+
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,45 @@
+﻿@model NDHuy_W345_S2.Models.Product
+
+<div class="container mt-4">
+
+    <div class="alert alert-danger">
+        <h4>Bạn có chắc muốn xóa sản phẩm này?</h4>
+    </div>
+
+    <div class="card">
+
+        <div class="card-body">
+
+            <h3>@Model.Name</h3>
+
+            <img src="@Model.ImageUrl"
+                 width="200"
+                 class="img-thumbnail mb-3" />
+
+            <p>
+                Giá:
+                @Model.Price.ToString("N0") VNĐ
+            </p>
+
+        </div>
+
+    </div>
+
+    <form asp-action="DeleteConfirmed"
+          asp-route-id="@Model.Id"
+          method="post"
+          class="mt-3">
+
+        <button type="submit"
+                class="btn btn-danger">
+            Xóa
+        </button>
+
+        <a asp-action="Index"
+           class="btn btn-secondary">
+            Hủy
+        </a>
+
+    </form>
+
+</div>

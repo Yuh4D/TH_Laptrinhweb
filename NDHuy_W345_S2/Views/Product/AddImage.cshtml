@@ -1,0 +1,222 @@
+@model NDHuy_W345_S2.Models.Product
+
+@{
+    ViewData["Title"] = $"Quản lý ảnh - {Model.Name}";
+    var images = Model.Images?.ToList() ?? new List<NDHuy_W345_S2.Models.ProductImage>();
+    var successMsg = TempData["Success"] as string;
+    var errorMsg = TempData["Error"] as string;
+}
+
+<div class="mb-4">
+    <a asp-action="Index" class="text-decoration-none text-muted">
+        <i class="bi bi-arrow-left me-1"></i>Quay lại danh sách
+    </a>
+</div>
+
+@* Thông báo *@
+@if (!string.IsNullOrEmpty(successMsg))
+{
+    <div class="alert alert-success alert-dismissible fade show rounded-3" role="alert">
+        <i class="bi bi-check-circle me-2"></i>@successMsg
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+@if (!string.IsNullOrEmpty(errorMsg))
+{
+    <div class="alert alert-danger alert-dismissible fade show rounded-3" role="alert">
+        <i class="bi bi-exclamation-triangle me-2"></i>@errorMsg
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@* Header sản phẩm *@
+<div class="card card-custom mb-4">
+    <div class="card-body d-flex align-items-center gap-3 p-3">
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" class="img-thumb" alt="@Model.Name" />
+        }
+        <div>
+            <h4 class="fw-bold mb-1">@Model.Name</h4>
+            <span class="badge bg-primary rounded-pill">@Model.Category?.Name</span>
+            <span class="text-danger fw-bold ms-3">@String.Format("{0:N0}đ", Model.Price)</span>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4">
+
+    <!-- CỘT TRÁI: Gallery ảnh hiện có -->
+    <div class="col-lg-7">
+        <div class="card card-custom">
+            <div class="card-body p-4">
+                <h5 class="fw-bold mb-3">
+                    <i class="bi bi-images text-primary me-2"></i>Thư viện ảnh
+                    <span class="text-muted fw-normal small ms-2">(@images.Count ảnh)</span>
+                </h5>
+
+                @if (images.Any())
+                {
+                    <div class="row g-3" id="imageGallery">
+                        @foreach (var img in images)
+                        {
+                            <div class="col-6 col-md-4" id="img-@img.Id">
+                                <div class="card border overflow-hidden rounded-3">
+                                    <img src="@img.Url"
+                                         class="card-img-top"
+                                         style="height:180px; object-fit:cover;"
+                                         alt="Ảnh sản phẩm" />
+                                    <div class="card-footer bg-white p-2 text-center">
+                                        <form asp-action="DeleteImage" method="post" class="d-inline"
+                                              onsubmit="return confirm('Xóa ảnh này? Hành động này không thể hoàn tác.');">
+                                            <input type="hidden" name="imageId" value="@img.Id" />
+                                            <input type="hidden" name="productId" value="@Model.Id" />
+                                            <button type="submit" class="btn btn-outline-danger btn-sm w-100">
+                                                <i class="bi bi-trash me-1"></i>Xóa
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <div class="text-center py-5 text-muted">
+                        <i class="bi bi-image" style="font-size:64px;"></i>
+                        <p class="mt-3">Chưa có ảnh nào trong thư viện</p>
+                        <p class="small">Sử dụng form bên phải để thêm ảnh mới</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- CỘT PHẢI: Upload ảnh mới -->
+    <div class="col-lg-5">
+        <div class="sticky-sidebar">
+            <div class="card card-custom">
+                <div class="card-body p-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-cloud-upload text-success me-2"></i>Thêm ảnh mới
+                    </h5>
+
+                    <form asp-action="AddImage" method="post" enctype="multipart/form-data" id="uploadForm">
+                        <input type="hidden" name="id" value="@Model.Id" />
+
+                        <!-- Khu vực chọn file -->
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Chọn nhiều ảnh</label>
+                            <input type="file"
+                                   name="imageFiles"
+                                   id="imageFiles"
+                                   class="form-control form-control-lg"
+                                   accept="image/*"
+                                   multiple />
+                            <div class="form-text">
+                                <i class="bi bi-info-circle me-1"></i>
+                                Hỗ trợ: jpg, jpeg, png, webp, gif. Có thể chọn nhiều file cùng lúc.
+                            </div>
+                        </div>
+
+                        <!-- Preview ảnh sắp upload -->
+                        <div id="uploadPreview" class="row g-2 mb-3"></div>
+
+                        <button type="submit" class="btn btn-success btn-lg w-100" id="btnUpload" disabled>
+                            <i class="bi bi-cloud-arrow-up me-2"></i>Tải lên
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Thông tin thư mục -->
+            <div class="card card-custom mt-3">
+                <div class="card-body p-3">
+                    <h6 class="fw-bold mb-2">
+                        <i class="bi bi-folder text-warning me-2"></i>Thư mục lưu ảnh
+                    </h6>
+                    <code class="small text-muted">/images/@(GetSlug(Model.Name))/</code>
+                    <p class="small text-muted mt-2 mb-0">
+                        Ảnh được lưu trong thư mục riêng của sản phẩm này.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@functions {
+    string GetSlug(string text)
+    {
+        if (string.IsNullOrEmpty(text)) return "product";
+        return string.Join("-", text.ToLower()
+            .Split(' ', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+            .Select(word => new string(word.Where(c => char.IsLetterOrDigit(c) || c == '-').ToArray()))
+            .Where(word => !string.IsNullOrEmpty(word)));
+    }
+}
+
+@section Styles {
+    <style>
+        .img-thumb {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+        }
+    </style>
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var $input = $('#imageFiles');
+            var $preview = $('#uploadPreview');
+            var $btn = $('#btnUpload');
+
+            $input.on('change', function () {
+                var files = this.files;
+                $preview.empty();
+
+                if (files.length > 0) {
+                    $btn.prop('disabled', false);
+
+                    for (var i = 0; i < files.length; i++) {
+                        (function (file) {
+                            if (!file.type.match(/^image\//)) return;
+
+                            var reader = new FileReader();
+                            reader.onload = function (e) {
+                                var html = `
+                                    <div class="col-4">
+                                        <div class="card border rounded-2 overflow-hidden">
+                                            <img src="${e.target.result}"
+                                                 style="height:100px; object-fit:cover;"
+                                                 class="card-img-top" />
+                                            <div class="card-footer p-1 text-center bg-white">
+                                                <small class="text-muted text-truncate d-block"
+                                                       title="${file.name}">${file.name}</small>
+                                                <small class="text-muted">${formatFileSize(file.size)}</small>
+                                            </div>
+                                        </div>
+                                    </div>`;
+                                $preview.append(html);
+                            };
+                            reader.readAsDataURL(file);
+                        })(files[i]);
+                    }
+                } else {
+                    $btn.prop('disabled', true);
+                }
+            });
+
+            function formatFileSize(bytes) {
+                if (bytes < 1024) return bytes + ' B';
+                if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB';
+                return (bytes / 1048576).toFixed(1) + ' MB';
+            }
+        });
+    </script>
+}

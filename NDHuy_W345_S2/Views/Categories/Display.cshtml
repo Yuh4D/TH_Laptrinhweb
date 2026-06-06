@@ -1,0 +1,35 @@
+﻿@model NDHuy_W345_S2.Models.Category
+
+@{
+    ViewData["Title"] = "Chi tiết danh mục";
+}
+
+<div class="container mt-4">
+
+    <div class="card">
+
+        <div class="card-header">
+            <h3>Thông tin danh mục</h3>
+        </div>
+
+        <div class="card-body">
+
+            <p>
+                <strong>ID:</strong>
+                @Model.Id
+            </p>
+
+            <p>
+                <strong>Tên danh mục:</strong>
+                @Model.Name
+            </p>
+        </div>
+
+    </div>
+
+    <a asp-action="Index"
+       class="btn btn-secondary mt-3">
+        Quay lại
+    </a>
+
+</div>

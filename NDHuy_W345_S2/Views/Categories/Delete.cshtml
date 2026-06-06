@@ -1,0 +1,47 @@
+﻿@model NDHuy_W345_S2.Models.Category
+
+@{
+    ViewData["Title"] = "Xóa danh mục";
+}
+
+<div class="container mt-4">
+
+    <div class="alert alert-danger">
+        <h4>Bạn có chắc muốn xóa danh mục này?</h4>
+    </div>
+
+    <div class="card mb-3">
+
+        <div class="card-body">
+
+            <p>
+                <strong>ID:</strong>
+                @Model.Id
+            </p>
+
+            <p>
+                <strong>Tên:</strong>
+                @Model.Name
+            </p>
+
+        </div>
+
+    </div>
+
+    <form asp-action="DeleteConfirmed"
+          asp-route-id="@Model.Id"
+          method="post">
+
+        <button type="submit"
+                class="btn btn-danger">
+            Xóa
+        </button>
+
+        <a asp-action="Index"
+           class="btn btn-secondary">
+            Hủy
+        </a>
+
+    </form>
+
+</div>
