@@ -46,6 +46,8 @@
                                     class="form-select form-select-lg">
                                 <option value="">-- Chọn danh mục --</option>
                             </select>
+                            <span asp-validation-for="CategoryId"
+                                  class="text-danger small"></span>
                         </div>
                     </div>
 
@@ -53,8 +55,13 @@
                         <label asp-for="Description" class="form-label fw-semibold">
                             <i class="bi bi-file-text me-1"></i>Mô tả sản phẩm
                         </label>
-                        <textarea asp-for="Description" class="form-control" rows="5"
-                                  placeholder="Nhập mô tả chi tiết về sản phẩm..."></textarea>
+                        <textarea asp-for="Description"
+                            id="editor"
+                            class="form-control" rows="5"
+                            placeholder="Nhập mô tả chi tiết về sản phẩm...">
+                        </textarea>
+                        <span asp-validation-for="Description"
+                              class="text-danger small"></span>
                     </div>
 
                     <div class="mb-4">
@@ -169,6 +176,16 @@
                 if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB';
                 return (bytes / 1048576).toFixed(1) + ' MB';
             }
+        });
+    </script>
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+
+    <script>
+        ClassicEditor
+        .create(document.querySelector('#editor'))
+        .catch(error => {
+        console.error(error);
         });
     </script>
 }

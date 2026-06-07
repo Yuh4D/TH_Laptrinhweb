@@ -188,6 +188,13 @@ namespace NDHuy_W345_S2.Areas.Identity.Pages.Account
                 }
             }
 
+            Input.RoleList = _roleManager.Roles.Select(x => x.Name).Select(i => new SelectListItem
+                {
+                    Text = i,
+                    Value = i
+                });
+
+
             // If we got this far, something failed, redisplay form
             return Page();
         }
@@ -214,5 +221,7 @@ namespace NDHuy_W345_S2.Areas.Identity.Pages.Account
             }
             return (IUserEmailStore<ApplicationUser>)_userStore;
         }
+
+
     }
 }

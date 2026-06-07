@@ -1,110 +1,138 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\TH-LTWEB\\NDHuy_W345_S2\\",
+  "WorkspaceRootPath": "D:\\TH_LapTrinhWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\ndhuy_w345_s2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\ndhuy_w345_s2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\areas\\admin\\views\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\areas\\admin\\views\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\migrations\\20260525014528_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\migrations\\20260525014528_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\views\\product\\addimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\product\\addimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\models\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\models\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\ndhuy_w345_s2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\ndhuy_w345_s2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\migrations\\20260525014528_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\migrations\\20260525014528_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\views\\product\\addimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\product\\addimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\migrations\\20260525014528_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\migrations\\20260525014528_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\migrations\\20260525014528_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th_laptrinhweb\\ndhuy_w345_s2\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|d:\\th-ltweb\\ndhuy_w345_s2\\ndhuy_w345_s2\\models\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F30B925A-3AAF-433B-A5BD-536D746C91C3}|NDHuy_W345_S2\\NDHuy_W345_S2.csproj|solutionrelative:ndhuy_w345_s2\\models\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,8 +142,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -151,59 +183,195 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NDHuy_W345_S2.csproj",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\NDHuy_W345_S2.csproj",
-              "RelativeDocumentMoniker": "NDHuy_W345_S2\\NDHuy_W345_S2.csproj",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\NDHuy_W345_S2.csproj",
-              "RelativeToolTip": "NDHuy_W345_S2\\NDHuy_W345_S2.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-06T17:23:45.766Z",
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Areas\\Admin\\Views\\Add.cshtml",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Areas\\Admin\\Views\\Add.cshtml",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Areas\\Admin\\Views\\Add.cshtml",
+              "RelativeToolTip": "NDHuy_W345_S2\\Areas\\Admin\\Views\\Add.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-07T16:48:11.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "NDHuy_W345_S2\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAAAwwCoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T20:21:01.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Views\\Product\\Add.cshtml",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "NDHuy_W345_S2\\Views\\Product\\Add.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAD4vzQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T20:33:21.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Views\\Product\\Update.cshtml",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "NDHuy_W345_S2\\Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAqwK4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T20:33:43.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Models\\ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Models\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-31T20:23:10.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Product\\Display.cshtml",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Views\\Product\\Display.cshtml",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Product\\Display.cshtml",
+              "RelativeToolTip": "NDHuy_W345_S2\\Views\\Product\\Display.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAD4v2EAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-31T20:33:28.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Models\\Product.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\Product.cs",
+              "RelativeToolTip": "NDHuy_W345_S2\\Models\\Product.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T20:23:16.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Category.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Models\\Category.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\Category.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Models\\Category.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Models\\Category.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\Category.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-31T20:22:47.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Models\\Product.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Models\\Product.cs",
-              "RelativeToolTip": "NDHuy_W345_S2\\Models\\Product.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAsAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAowMMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T20:23:16.676Z"
+              "WhenOpened": "2026-06-06T18:08:58.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "NDHuy_W345_S2\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T18:04:31.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SD.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\SD.cs",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Models\\SD.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\SD.cs",
+              "RelativeToolTip": "NDHuy_W345_S2\\Models\\SD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T18:04:47.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAIwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T18:08:46.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T18:08:53.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "NDHuy_W345_S2\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwDgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-06T18:09:22.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NDHuy_W345_S2.csproj",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\NDHuy_W345_S2.csproj",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\NDHuy_W345_S2.csproj",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\NDHuy_W345_S2.csproj",
+              "RelativeToolTip": "NDHuy_W345_S2\\NDHuy_W345_S2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-06T17:23:45.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Controllers\\CategoryController.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAYwAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,11 +379,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Models\\DataSeeder.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\DataSeeder.cs",
+              "RelativeToolTip": "NDHuy_W345_S2\\Models\\DataSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T20:22:40.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\appsettings.json",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\appsettings.json",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\appsettings.json",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\appsettings.json",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\appsettings.json",
               "RelativeToolTip": "NDHuy_W345_S2\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -223,11 +403,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Program.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Program.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Program.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Program.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Program.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -235,23 +415,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "NDHuy_W345_S2\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T20:21:01.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Controllers\\HomeController.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -259,11 +427,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -271,11 +439,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "AddImage.cshtml",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Product\\AddImage.cshtml",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Product\\AddImage.cshtml",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Views\\Product\\AddImage.cshtml",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Product\\AddImage.cshtml",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Product\\AddImage.cshtml",
               "RelativeToolTip": "NDHuy_W345_S2\\Views\\Product\\AddImage.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -283,47 +451,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Product\\Add.cshtml",
-              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Views\\Product\\Add.cshtml",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Product\\Add.cshtml",
-              "RelativeToolTip": "NDHuy_W345_S2\\Views\\Product\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-31T20:33:21.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Display.cshtml",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Product\\Display.cshtml",
-              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Views\\Product\\Display.cshtml",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Product\\Display.cshtml",
-              "RelativeToolTip": "NDHuy_W345_S2\\Views\\Product\\Display.cshtml",
-              "ViewState": "AgIAAGAAAAAAAAAAAIBJwGsAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-31T20:33:28.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Product\\Update.cshtml",
-              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Views\\Product\\Update.cshtml",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Product\\Update.cshtml",
-              "RelativeToolTip": "NDHuy_W345_S2\\Views\\Product\\Update.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-31T20:33:43.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "20260525014528_init.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Migrations\\20260525014528_init.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Migrations\\20260525014528_init.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Migrations\\20260525014528_init.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Migrations\\20260525014528_init.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Migrations\\20260525014528_init.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Migrations\\20260525014528_init.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -331,11 +463,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "NDHuy_W345_S2\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -343,11 +475,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Product\\Index.cshtml",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "NDHuy_W345_S2\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -355,11 +487,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Product\\Delete.cshtml",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Views\\Product\\Delete.cshtml",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Product\\Delete.cshtml",
               "RelativeToolTip": "NDHuy_W345_S2\\Views\\Product\\Delete.cshtml",
               "ViewState": "AgIAAAoAAAAAAAAAAABBwAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -367,11 +499,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Shared\\Error.cshtml",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Views\\Shared\\Error.cshtml",
               "RelativeToolTip": "NDHuy_W345_S2\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -379,11 +511,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "20260525014528_init.Designer.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Migrations\\20260525014528_init.Designer.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Migrations\\20260525014528_init.Designer.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Migrations\\20260525014528_init.Designer.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Migrations\\20260525014528_init.Designer.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Migrations\\20260525014528_init.Designer.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Migrations\\20260525014528_init.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -391,11 +523,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "EFProductRepository.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Repositories\\EFProductRepository.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Repositories\\EFProductRepository.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Repositories\\EFProductRepository.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Repositories\\EFProductRepository.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Repositories\\EFProductRepository.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Repositories\\EFProductRepository.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAcwAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -403,11 +535,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Repositories\\ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Repositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Repositories\\ICategoryRepository.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Repositories\\ICategoryRepository.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Repositories\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -415,11 +547,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "IProductRepository.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Repositories\\IProductRepository.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Repositories\\IProductRepository.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Repositories\\IProductRepository.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Repositories\\IProductRepository.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Repositories\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -427,11 +559,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "EFCategoryRepository.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Repositories\\EFCategoryRepository.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Repositories\\EFCategoryRepository.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Repositories\\EFCategoryRepository.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Repositories\\EFCategoryRepository.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Repositories\\EFCategoryRepository.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Repositories\\EFCategoryRepository.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAcwBMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -439,27 +571,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "ProductImage.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Models\\ProductImage.cs",
+              "DocumentMoniker": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "NDHuy_W345_S2\\Models\\ProductImage.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Models\\ProductImage.cs",
+              "ToolTip": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\Models\\ProductImage.cs",
               "RelativeToolTip": "NDHuy_W345_S2\\Models\\ProductImage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-31T20:23:27.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DataSeeder.cs",
-              "DocumentMoniker": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Models\\DataSeeder.cs",
-              "RelativeDocumentMoniker": "NDHuy_W345_S2\\Models\\DataSeeder.cs",
-              "ToolTip": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\Models\\DataSeeder.cs",
-              "RelativeToolTip": "NDHuy_W345_S2\\Models\\DataSeeder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T20:22:40.532Z"
             }
           ]
         },

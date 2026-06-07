@@ -47,6 +47,8 @@
                                     asp-items="ViewBag.Categories"
                                     class="form-select form-select-lg">
                             </select>
+                            <span asp-validation-for="CategoryId"
+                                  class="text-danger small"></span>
                         </div>
                     </div>
 
@@ -54,7 +56,12 @@
                         <label asp-for="Description" class="form-label fw-semibold">
                             <i class="bi bi-file-text me-1"></i>Mô tả sản phẩm
                         </label>
-                        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                        <textarea asp-for="Description" 
+                            id="editor"
+                            class="form-control" 
+                            rows="4">
+                        </textarea>
+						<span asp-validation-for="Description" class="text-danger small"></span>
                     </div>
 
                     <div class="mb-4">
@@ -154,6 +161,16 @@
                     $preview.css('display', 'none').attr('src', '');
                 }
             });
+        });
+    </script>
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
+
+    <script>
+        ClassicEditor
+        .create(document.querySelector('#editor'))
+        .catch(error => {
+        console.error(error);
         });
     </script>
 }

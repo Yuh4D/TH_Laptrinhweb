@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gjtFTzBZ7Mo=",
+  "dgSpecHash": "aG0RD94W2xw=",
   "success": true,
-  "projectFilePath": "D:\\TH-LTWEB\\NDHuy_W345_S2\\NDHuy_W345_S2\\NDHuy_W345_S2.csproj",
+  "projectFilePath": "D:\\TH_LapTrinhWeb\\NDHuy_W345_S2\\NDHuy_W345_S2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -186,11 +186,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\system.text.encodings.web\\6.0.1\\system.text.encodings.web.6.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.text.json\\8.0.6\\system.text.json.8.0.6.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
-    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
+    "C:\\Users\\HP\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }
