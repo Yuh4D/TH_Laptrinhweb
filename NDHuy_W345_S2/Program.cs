@@ -24,7 +24,17 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.LoginPath = $"/Identity/Account/AccessDenied";
 });
 
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
 builder.Services.AddRazorPages();
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -33,6 +43,8 @@ builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
 
 var app = builder.Build();
+
+app.UseSession();
 
 // Seed data - kiểm tra dữ liệu rỗng trước khi seed
 using (var scope = app.Services.CreateScope())

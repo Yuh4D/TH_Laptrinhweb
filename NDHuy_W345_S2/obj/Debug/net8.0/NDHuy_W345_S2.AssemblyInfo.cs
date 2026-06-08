@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NDHuy_W345_S2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c37107aa0c6c2733a7f5dda8029cc48d2e4c93d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d00ea50ff354f409da003e82ba73827bb21e36f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("NDHuy_W345_S2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NDHuy_W345_S2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

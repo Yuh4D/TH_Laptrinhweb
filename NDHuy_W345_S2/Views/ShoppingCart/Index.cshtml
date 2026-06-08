@@ -1,0 +1,193 @@
+﻿@model ShoppingCart
+@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<div class="mb-4">
+    <a asp-controller="Product" asp-action="Index" class="text-decoration-none text-muted">
+        <i class="bi bi-arrow-left me-1"></i>Tiếp tục mua sắm
+    </a>
+</div>
+
+<h2 class="fw-bold mb-4">
+    <i class="bi bi-cart3 text-primary me-2"></i>Giỏ hàng của bạn
+</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <i class="bi bi-check-circle me-1"></i>@TempData["Success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <i class="bi bi-exclamation-circle me-1"></i>@TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (Model.Items.Count == 0)
+{
+    <div class="card card-custom">
+        <div class="card-body text-center py-5">
+            <i class="bi bi-cart-x" style="font-size: 80px; color: #d1d5db;"></i>
+            <h4 class="mt-3 text-muted">Giỏ hàng trống</h4>
+            <p class="text-muted">Hãy thêm sản phẩm vào giỏ hàng để tiếp tục mua sắm.</p>
+            <a asp-controller="Product" asp-action="Index" class="btn buy-btn btn-lg mt-2">
+                <i class="bi bi-bag me-2"></i>Xem sản phẩm
+            </a>
+        </div>
+    </div>
+}
+else
+{
+    <div class="row g-4">
+        <!-- Cột trái: Danh sách sản phẩm trong giỏ -->
+        <div class="col-lg-8">
+            <div class="card card-custom">
+                <div class="card-header bg-white border-bottom-0 pt-3 pb-0">
+                    <h5 class="fw-bold">
+                        <i class="bi bi-box-seam text-primary me-2"></i>
+                        @Model.TotalItems sản phẩm trong giỏ
+                    </h5>
+                </div>
+                <div class="card-body p-0">
+                    @foreach (var item in Model.Items)
+                    {
+   
+                            <!-- Thông tin sản phẩm -->
+                            <div class="flex-grow-1 min-width-0">
+                                <h6 class="fw-bold mb-1">@item.Name</h6>
+                                <span class="text-danger fw-bold">@String.Format("{0:N0}đ", item.Price)</span>
+                            </div>
+
+                            <!-- Số lượng -->
+                            <div class="flex-shrink-0 mx-3">
+                                <form asp-action="UpdateQuantity" method="post" class="d-flex align-items-center">
+                                    <input type="hidden" name="productId" value="@item.ProductId" />
+                                    <div class="input-group input-group-sm" style="width:120px;">
+                                        <button type="button"
+                                                class="btn btn-outline-secondary btn-qty-dec"
+                                                data-target="qty-@item.ProductId">
+                                            <i class="bi bi-dash"></i>
+                                        </button>
+                                        <input type="number"
+                                               id="qty-@item.ProductId"
+                                               name="quantity"
+                                               class="form-control text-center fw-bold"
+                                               value="@item.Quantity"
+                                               min="1"
+                                               max="99"
+                                               style="-moz-appearance:textfield;"
+                                               onchange="this.form.submit()" />
+                                        <button type="button"
+                                                class="btn btn-outline-secondary btn-qty-inc"
+                                                data-target="qty-@item.ProductId">
+                                            <i class="bi bi-plus"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- Thành tiền -->
+                            <div class="flex-shrink-0 text-end mx-3" style="min-width:100px;">
+                                <span class="fw-bold text-danger fs-6">
+                                    @String.Format("{0:N0}đ", item.Price * item.Quantity)
+                                </span>
+                            </div>
+
+                            <!-- Nút xóa -->
+                            <div class="flex-shrink-0">
+                                <a asp-action="RemoveFromCart"
+                                   asp-route-productId="@item.ProductId"
+                                   class="btn btn-outline-danger btn-sm btn-remove-cart"
+                                   title="Xóa khỏi giỏ hàng"
+                                   data-product-name="@item.Name">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </div>
+            
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Cột phải: Tổng tiền và thanh toán -->
+        <div class="col-lg-4">
+            <div class="card card-custom sticky-sidebar">
+                <div class="card-header bg-white pt-3 pb-0">
+                    <h5 class="fw-bold">
+                        <i class="bi bi-receipt text-primary me-2"></i>Tổng đơn hàng
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="text-muted">Tạm tính</span>
+                        <span class="fw-semibold">@String.Format("{0:N0}đ", Model.TotalPrice)</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="text-muted">Số lượng</span>
+                        <span class="fw-semibold">@Model.TotalItems sản phẩm</span>
+                    </div>
+                    <hr />
+                    <div class="d-flex justify-content-between mb-3">
+                        <span class="fw-bold fs-5">Tổng cộng</span>
+                        <span class="fw-bold text-danger fs-5">@String.Format("{0:N0}đ", Model.TotalPrice)</span>
+                    </div>
+
+                    <a asp-action="Checkout" class="btn buy-btn w-100 btn-lg mb-2">
+                        <i class="bi bi-credit-card me-2"></i>Thanh toán
+                    </a>
+                    <a asp-controller="Product" asp-action="Index"
+                       class="btn btn-outline-secondary w-100">
+                        <i class="bi bi-cart-plus me-2"></i>Tiếp tục mua sắm
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Nút tăng số lượng
+            $('.btn-qty-inc').click(function () {
+                var targetId = '#' + $(this).data('target');
+                var $input = $(targetId);
+                var val = parseInt($input.val()) || 1;
+                if (val < 99) {
+                    $input.val(val + 1);
+                    $input.closest('form').submit();
+                }
+            });
+
+            // Nút giảm số lượng
+            $('.btn-qty-dec').click(function () {
+                var targetId = '#' + $(this).data('target');
+                var $input = $(targetId);
+                var val = parseInt($input.val()) || 1;
+                if (val > 1) {
+                    $input.val(val - 1);
+                    $input.closest('form').submit();
+                }
+            });
+
+            // Ẩn spinner trên input number
+            $('input[type=number]').on('wheel', function (e) {
+                e.preventDefault();
+            });
+
+            // Xác nhận xóa sản phẩm khỏi giỏ hàng
+            $('.btn-remove-cart').click(function (e) {
+                var productName = $(this).data('product-name');
+                if (!confirm('Bạn có chắc muốn xóa "' + productName + '" khỏi giỏ hàng?')) {
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+}

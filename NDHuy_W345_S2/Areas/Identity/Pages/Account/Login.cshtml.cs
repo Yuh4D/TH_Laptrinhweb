@@ -15,6 +15,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using NDHuy_W345_S2.Models;
+using NDHuy_W345_S2.Extensions;
 
 namespace NDHuy_W345_S2.Areas.Identity.Pages.Account
 {
@@ -115,6 +116,11 @@ namespace NDHuy_W345_S2.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
+                    var user = await _signInManager.UserManager.FindByEmailAsync(Input.Email) ?? await _signInManager.UserManager.FindByNameAsync(Input.Email);
+                    if (user != null) 
+                    {
+                        HttpContext.MergeGuestCartIntoUserCart(user.Id);
+                    }
                     _logger.LogInformation("User logged in.");
                     return LocalRedirect(returnUrl);
                 }

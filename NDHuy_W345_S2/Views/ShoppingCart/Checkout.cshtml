@@ -1,0 +1,115 @@
+﻿@using NDHuy_W345_S2.Extensions
+@model Order
+@{
+    ViewData["Title"] = "Thanh toán";
+}
+
+<div class="mb-4">
+    <a asp-action="Index" class="text-decoration-none text-muted">
+        <i class="bi bi-arrow-left me-1"></i>Quay lại giỏ hàng
+    </a>
+</div>
+
+<h2 class="fw-bold mb-4">
+    <i class="bi bi-credit-card text-primary me-2"></i>Thanh toán
+</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <i class="bi bi-check-circle me-1"></i>@TempData["Success"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <i class="bi bi-exclamation-circle me-1"></i>@TempData["Error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="row g-4">
+    <!-- Form thanh toán -->
+    <div class="col-lg-7">
+        <div class="card card-custom">
+            <div class="card-header bg-white pt-3 pb-0">
+                <h5 class="fw-bold">
+                    <i class="bi bi-truck text-primary me-2"></i>Thông tin giao hàng
+                </h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="Checkout" method="post">
+                    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="ShippingAddress" class="form-label fw-semibold">
+                            <i class="bi bi-geo-alt text-primary me-1"></i>Địa chỉ giao hàng
+                        </label>
+                        <input asp-for="ShippingAddress"
+                               class="form-control form-control-lg"
+                               placeholder="Nhập địa chỉ giao hàng của bạn..." />
+                        <span asp-validation-for="ShippingAddress" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Notes" class="form-label fw-semibold">
+                            <i class="bi bi-pencil text-primary me-1"></i>Ghi chú đơn hàng
+                        </label>
+                        <textarea asp-for="Notes"
+                                  class="form-control"
+                                  rows="4"
+                                  placeholder="Ghi chú thêm về đơn hàng (không bắt buộc)..."></textarea>
+                        <span asp-validation-for="Notes" class="text-danger small"></span>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn buy-btn btn-lg">
+                            <i class="bi bi-check-circle me-2"></i>Đặt hàng
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tổng đơn hàng -->
+    <div class="col-lg-5">
+        <div class="card card-custom sticky-sidebar">
+            <div class="card-header bg-white pt-3 pb-0">
+                <h5 class="fw-bold">
+                    <i class="bi bi-receipt text-primary me-2"></i>Tổng đơn hàng
+                </h5>
+            </div>
+            <div class="card-body">
+                @{
+                    // Lấy giỏ hàng từ Session để hiển thị
+                    var cart = Context.GetCurrentCart();
+                }
+
+                @foreach (var item in cart.Items)
+                {
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <div class="text-truncate me-2" style="max-width: 200px;">
+                            <span class="small fw-semibold">@item.Name</span>
+                            <br />
+                            <span class="text-muted small">x@(item.Quantity)</span>
+                        </div>
+                        <span class="fw-semibold text-nowrap">@String.Format("{0:N0}đ", item.Price * item.Quantity)</span>
+                    </div>
+                }
+
+                <hr />
+                <div class="d-flex justify-content-between mb-3">
+                    <span class="fw-bold fs-5">Tổng cộng</span>
+                    <span class="fw-bold text-danger fs-5">@String.Format("{0:N0}đ", cart.TotalPrice)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,4 +1,5 @@
 @model IEnumerable<NDHuy_W345_S2.Models.Product>
+@using NDHuy_W345_S2.Extensions
 @using NDHuy_W345_S2.Models
 
 @{
@@ -8,6 +9,10 @@
     var selectedCategoryName = selectedCategoryId.HasValue && categories != null
         ? categories.FirstOrDefault(c => c.Id == selectedCategoryId.Value)?.Name
         : null;
+    int numOfQuantity = 1;
+
+    var currentCart = Context.GetCurrentCart();
+    var cartItemCount = currentCart.TotalItems;
 }
 
 @functions {
@@ -218,10 +223,14 @@
                                         Chi tiết
                                     </a>
 
-                                    <a href="#"
-                                       class="btn btn-gradient w-50">
-                                        Mua ngay
-                                    </a>
+                                    <form asp-controller="ShoppingCart"
+                                        asp-action="AddToCart" method="post" class="w-50">
+                                        <input type="hidden" name="productId" value="@product.Id" />
+                                        <input type="hidden" name="quantity" value="1" />
+                                        <button type="submit" class="btn buy-btn w-100" >
+                                            <i class="bi bi-cart-plus me-1"></i>
+                                                Thêm vào Giỏ Hàng </button>    
+                                    </form>
 
                                 </div>
 
